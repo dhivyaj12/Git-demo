@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "FreeCRM Login Test Scenario",
+        "description": "",
+        "id": "freecrm-login-feature;freecrm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11879321621,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on login page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24267502,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of login page is FreeCRM",
+            "match": {
+              "location": "LoginStepDefinition.title_of_login_page_is_FreeCRM()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 260104332,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4953268481,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16036360,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Login feature",
+    "description": "",
+    "id": "freecrm-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/veera/Downloads/argos-bdd/BDDFramework/src/test/java/Feature/Login.feature"
+  }
+]
